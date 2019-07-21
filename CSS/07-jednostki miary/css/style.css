@@ -1,0 +1,30 @@
+html{
+    font-size: 20px;
+}
+
+#container{
+    font-size: 20px;
+}
+
+#container > div {
+    background-color: orange;
+    margin-bottom: 15px;
+}
+
+#pixels {
+    width: 20em;
+}
+
+#em{
+    width: 20em;
+}
+
+#percent {
+    width: 50%;
+}
+
+#vh{
+    width: 75vh;
+}
+
+
