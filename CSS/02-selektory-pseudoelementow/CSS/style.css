@@ -1,0 +1,13 @@
+*{
+    background-color: aquamarine;
+}
+
+#pierwszy::before {
+    content: "Przed pierwszym paragrafem";
+    color: silver;
+}
+
+#drugi::after{
+    content: "Za tekstem";
+    color: olive;
+}
