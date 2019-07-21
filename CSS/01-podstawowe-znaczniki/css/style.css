@@ -6,3 +6,33 @@ body{
     color: green;
 }
 
+p{
+    background-color: darkblue;
+}
+
+#kasia{
+    color: brown;
+}
+
+.lorak{
+    color: red;
+}
+
+ul a{
+    color: #ff0014;
+}
+
+/* tylko tlo spanu się zmieniło */
+
+a > span { 
+    background-color: mediumseagreen;
+}
+
+li#pierwszy ~ li {
+    background-color: palevioletred;
+}
+
+li#pierwszy + li {
+    background-color: cyan;
+}
+
