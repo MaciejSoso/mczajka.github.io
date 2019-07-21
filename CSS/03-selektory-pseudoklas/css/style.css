@@ -1,0 +1,27 @@
+#name:hover{
+    background-color: crimson;
+}
+
+#name:focus{
+    border: 10px solid yellow;
+}
+
+.customer:first-child{
+    background-color: aqua;
+}
+
+.customer:last-child{
+    background-color: darkred;
+}
+
+.customer:nth-child(3){
+    color:lawngreen;
+}
+
+.customer:nth-last-child(3){
+    color: gold;
+}
+
+.customer:nth-child(3n -1) {
+    background-color: deeppink;
+}
