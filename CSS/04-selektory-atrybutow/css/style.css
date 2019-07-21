@@ -1,0 +1,35 @@
+[title]{
+    background-color: rgb(155, 37, 37);
+}
+
+[title='About me'] {
+    color: rgb(59, 207, 22);
+}
+
+[title~="Container"]{
+    background-color: green;
+}
+
+[title*="ection"]{
+    background-color: royalblue;
+}
+
+/* atrybut ktory zaczyna sie na more */
+
+[title^="More"]{
+    background-color: aqua;
+}
+
+[title$="skills"]{
+    background-color: chocolate;
+}
+
+[title]:first-child{
+    background-color: purple;
+}
+
+nav > ul > li > a[title]{
+    color:lightcoral;
+}
+
+

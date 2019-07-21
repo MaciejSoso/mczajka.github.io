@@ -1,0 +1,30 @@
+*{
+    background-color: #213b50;
+    color: #ffffff;
+}
+
+form{
+    background-color: #213b50;
+    color: white;
+    width: 600px;
+    padding: 5px;
+}
+
+form input, form select{
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block
+    margin-bottom; 5px:
+}
+
+form select, form input[type="text"], form input[type="tel"], form input
+[type="email"], textarea{
+    width: 300px;
+    background-color: #2b4a64;
+    color; 
+
+    
+
+}
