@@ -1,0 +1,74 @@
+img {
+    height: 300px;
+    margin-bottom: 300px;
+    transition: all 1s;
+    transform-origin: 50% 100%;
+
+}
+
+.rotate img:hover {
+    transform: rotate(45deg);
+}
+
+/* translate to wartosci x,y */
+
+.translate img:hover{
+    transform: translate(450px,100px);
+}
+
+/* scale predkosci pomniejszania */
+
+.scale img:hover{
+    transform: scale(0.3);
+}
+
+/* AIC zeby caly czas cos sie ruszalo */
+
+.animation img {
+    animation-name: resize;
+    animation-duration: 20s;
+    animation-iteration-count: infinite
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 500px;
+    }
+
+    10%{
+        height: 100px;
+        transform: translate(250px);
+        transform: rotate(360deg);
+    }
+
+    20%{
+        height: 200px;
+        transform: translate(250px);
+        transform: rotate(360deg);
+    }
+
+    30%{
+        height: 300px;
+        transform: translate(250px);
+        transform: rotate(360deg);
+    }
+
+    40%{
+        height: 400px;
+        transform: translate(250px);
+        transform: rotate(360deg);
+    }
+    
+    50%{
+        height: 500px;
+        transform: translate(250px);
+        transform: rotate(360deg);
+    }
+
+    60%{
+        height: 650px;
+
+    }
+
+
+}
