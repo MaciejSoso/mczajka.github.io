@@ -4,7 +4,7 @@
     padding: 10px;
     margin: 3px;
     background-color: darkgray;
-    flex-basis: 15%;
+    flex-basis: 50%;
 }
 
 .flex-item:nth-last-of-type(odd) {
@@ -16,4 +16,5 @@
     border: 2px dashed red;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
 }
