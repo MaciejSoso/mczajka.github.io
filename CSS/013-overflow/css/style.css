@@ -1,0 +1,30 @@
+.box{
+    width: 400px;
+    height: 150px;
+    border: 1px solid red;
+    padding: 5px;
+    margin: 40px;
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* domyslnie wylazi za ramki */
+#visible{
+    overflow: visible;
+    color: rebeccapurple;
+}
+/* hidden chowa tekst w ramki */
+#hidden {
+    overflow: hidden;
+    color: royalblue;
+}
+/* scrool wiadomo XD */
+#scroll{
+    overflow: scroll;
+    color: darkmagenta;
+}
+
+#auto{
+    overflow: auto;
+    color: deeppink;
+}
